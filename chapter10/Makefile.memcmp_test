@@ -1,5 +1,5 @@
-PROGRAM = memory
-OBJS    = memory.o
+PROGRAM = memcmp_test
+OBJS    = memcmp_test.o
 SRCS    = $(OBJS:%.o=%.c)
 CC      = gcc
 CFLAGS  = -g -Wall
